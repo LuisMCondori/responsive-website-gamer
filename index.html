@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Gamer</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--CUSTOM STYLES-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!----------------------------------- HEADER ----------------------------------->    
+    <header>
+        <div class="header contenedor">
+            <div class="logo">
+                <i class="fas fa-laptop"></i>
+                <p>GamersPeru</p>
+            </div>
+
+            <div class="carrito">
+                <img src="img/cart.png">                
+                <div class="tablaCarrito oculto" id="tablaCarrito">
+                    <table id="carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Descripcion</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                        
+                        </tbody>
+                    </table>
+                    <a href="#" class="btnVaciar" id="vaciarCarrito">Vaciar Carrito</a>
+                </div>
+            </div>            
+        </div>
+    </header>
+    <!----------------------------------- HEADER ----------------------------------->  
+    
+    <div class="hero" >
+            <div class="contenido-hero contenedor">
+                <h3>Busca la PC de tus sueños</h3>
+                <p>Todos los productos disponibles</p>
+                <form action="#" class="formulario">
+                    <input type="text" placeholder=" ¿Que esta buscando?">
+                    <input type="submit" class="buscador">
+                </form>
+            </div>         
+    </div>
+    <!----------------------------------- BARRA ----------------------------------->  
+
+    <div class="barra">
+        <div class="contenido-barra contenedor">
+            <div class="icono">
+                <i class="fas fa-shield-alt"></i>
+                <p>100 productos diferentes <br>Explora los nuevos productos</p>
+            </div>
+            <div class="icono">
+                <i class="fas fa-infinity"></i>
+                <p>Expertos los atenderan <br>Prueba las nuevas combinaciones</p>
+            </div>
+            <div class="icono">
+                <i class="fas fa-house-user"></i>
+                <p>Envio <br>Gratis hasta tu casa</p>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------- PRODUCTOS ----------------------------------->  
+    <h1 class="titulo">PC GAMER EN LINEA</h1>
+    
+    <div class="productos contenedor" id="productos">
+        <div class="producto">
+            <img src="img/product1.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="1">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/product2.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="2">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/product3.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="3">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/product4.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="4">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/product1.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="5">Agregar al Carrito</a>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/product1.jpg" alt="">
+            <div class="info-producto">
+                <h4>titulo</h4>
+                <p>descripcion</p>
+                <img src="img/estrellas.png" alt="">
+                <div class="precio">
+                    <p class="regular">$200</p>
+                    <p class="oferta">$10</p>
+                </div>
+                <a href="#" class="btnProducto" data-id="6">Agregar al Carrito</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
